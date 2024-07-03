@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Tabuleiro - Trilha</title>
+    <link rel="stylesheet" href="tab.css">
+    <style>
+        main {    
+            flex: 1;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        História da Computação
+    </header>
+    <nav>
+        <ul>
+            <li><a href="inicio.html">Início</a></li>
+            <li><a href="tab.html">Trilha</a></li>
+            <li><a href="TesteTuring.html">Teste de Turing</a></li>
+            <li><a href="Filmes.html">Filmes</a></li>
+
+        </ul>
+    </nav>    
+    <main>
+    <div class="board">
+        <div class="square" id="square1">2400 a.C.</div>
+        <div class="square" id="square2">III a.C.</div>
+        <div class="square" id="square3">1614</div>
+        <div class="square" id="square4">1623</div>
+        <div class="square3" id="square5">1642</div>
+        <div class="square4" id="square6">1694</div>
+        <div class="square" id="square7">1801</div>
+        <div class="square" id="square8">1837-1843</div>
+        <div class="square" id="square9">1890</div>
+        <div class="square6" id="square10">1936</div>
+        <div class="square7" id="square11">Teste Turing</div>
+        <div class="square" id="square12">1936</div>
+        <div class="square" id="square13">1944</div>
+        <div class="square" id="square14">1945</div>
+        <div class="square" id="square15">Filmes</div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="overlay-content">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <div class="overlay-text">
+                <h2 id="overlay-title"></h2>
+                <div id="overlay-info"></div>
+            </div>
+            <div class="image-container">
+                <img id="overlay-image" src="" alt="Imagem de Informação">
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer> by Bruno / Caio / Dan / Miguel</footer>
+
+    <script src="tab.js"></script>
+</body>
+</html>
